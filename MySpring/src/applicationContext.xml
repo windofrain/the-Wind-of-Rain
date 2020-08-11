@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+  <bean name="A" class="cn.itcast.bean.A">
+     <property name="name" value="tom"></property>
+  </bean>
+    <bean name="B" class="cn.itcast.bean.B">
+     <property name="a" ref="A"></property>
+  </bean>
+</beans>
